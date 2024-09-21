@@ -1,0 +1,96 @@
+/* Estilos generales del NavBar */
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Espacio entre el logo y el menú */
+  align-items: center; /* Alineación vertical de los elementos */
+  padding: 10px 20px;
+  background-color: #333; /* Color de fondo oscuro */
+}
+
+.navbar-brand a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Menú de navegación */
+.navbar-menu {
+  list-style: none; /* Elimina el estilo de lista */
+  display: flex; /* Flexbox para mostrar los ítems horizontalmente */
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end; /* Alinea los ítems a la derecha */
+  flex-grow: 1; /* Empuja el menú hacia la derecha */
+}
+
+.navbar-item {
+  margin-left: 20px; /* Espaciado entre los ítems del menú */
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.navbar-item a:hover {
+  background-color: #575757; /* Efecto hover */
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+/* Estilo general para la lista de pizzas */
+.pizza-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Crear 2 columnas */
+  gap: 20px; /* Espacio entre las pizzas */
+  padding: 20px;
+}
+
+.pizza-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.pizza-card img {
+  width: 100%; /* Hacer que la imagen se ajuste al ancho del contenedor */
+  height: auto; /* Mantener la proporción de la imagen */
+  border-radius: 10px; /* Bordes redondeados para un mejor diseño */
+}
+
+.pizza-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.pizza-card p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.pizza-card a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+
+
+/* CSS */
+.menu-title {
+  text-align: center;
+  font-size: 2.5em; /* Tamaño del texto */
+  margin: 20px 0; /* Espaciado arriba y abajo */
+}
